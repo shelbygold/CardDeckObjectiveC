@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CardDeckViewController.h
 //  CardDeckObjecC
 //
 //  Created by shelby gold on 3/26/19.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface CardDeckViewController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END
