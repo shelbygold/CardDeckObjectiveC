@@ -8,24 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		DD5890B7224AB9BA0027AC07 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5890B6224AB9BA0027AC07 /* AppDelegate.m */; };
-		DD5890BA224AB9BA0027AC07 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5890B9224AB9BA0027AC07 /* ViewController.m */; };
 		DD5890BD224AB9BA0027AC07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD5890BB224AB9BA0027AC07 /* Main.storyboard */; };
 		DD5890BF224AB9BC0027AC07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD5890BE224AB9BC0027AC07 /* Assets.xcassets */; };
 		DD5890C2224AB9BC0027AC07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD5890C0224AB9BC0027AC07 /* LaunchScreen.storyboard */; };
 		DD5890C5224AB9BC0027AC07 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5890C4224AB9BC0027AC07 /* main.m */; };
+		DD5890CD224ABB7A0027AC07 /* SWGCard.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5890CC224ABB7A0027AC07 /* SWGCard.m */; };
+		DD5890D1224ABFA30027AC07 /* SWGCardController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5890D0224ABFA30027AC07 /* SWGCardController.m */; };
+		DD5890D6224AD0320027AC07 /* CardDeckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5890D5224AD0320027AC07 /* CardDeckViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DD5890B2224AB9BA0027AC07 /* CardDeckObjecC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardDeckObjecC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD5890B5224AB9BA0027AC07 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DD5890B6224AB9BA0027AC07 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DD5890B8224AB9BA0027AC07 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DD5890B9224AB9BA0027AC07 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		DD5890BC224AB9BA0027AC07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DD5890BE224AB9BC0027AC07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD5890C1224AB9BC0027AC07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD5890C3224AB9BC0027AC07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DD5890C4224AB9BC0027AC07 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DD5890CB224ABB7A0027AC07 /* SWGCard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWGCard.h; sourceTree = "<group>"; };
+		DD5890CC224ABB7A0027AC07 /* SWGCard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWGCard.m; sourceTree = "<group>"; };
+		DD5890CF224ABFA30027AC07 /* SWGCardController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SWGCardController.h; sourceTree = "<group>"; };
+		DD5890D0224ABFA30027AC07 /* SWGCardController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWGCardController.m; sourceTree = "<group>"; };
+		DD5890D4224AD0320027AC07 /* CardDeckViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardDeckViewController.h; sourceTree = "<group>"; };
+		DD5890D5224AD0320027AC07 /* CardDeckViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardDeckViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,15 +66,35 @@
 			children = (
 				DD5890B5224AB9BA0027AC07 /* AppDelegate.h */,
 				DD5890B6224AB9BA0027AC07 /* AppDelegate.m */,
-				DD5890B8224AB9BA0027AC07 /* ViewController.h */,
-				DD5890B9224AB9BA0027AC07 /* ViewController.m */,
+				DD5890D4224AD0320027AC07 /* CardDeckViewController.h */,
+				DD5890D5224AD0320027AC07 /* CardDeckViewController.m */,
 				DD5890BB224AB9BA0027AC07 /* Main.storyboard */,
+				DD5890D3224ACB650027AC07 /* ModelController */,
+				DD5890CE224ABF850027AC07 /* Model */,
 				DD5890BE224AB9BC0027AC07 /* Assets.xcassets */,
 				DD5890C0224AB9BC0027AC07 /* LaunchScreen.storyboard */,
 				DD5890C3224AB9BC0027AC07 /* Info.plist */,
 				DD5890C4224AB9BC0027AC07 /* main.m */,
 			);
 			path = CardDeckObjecC;
+			sourceTree = "<group>";
+		};
+		DD5890CE224ABF850027AC07 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DD5890CB224ABB7A0027AC07 /* SWGCard.h */,
+				DD5890CC224ABB7A0027AC07 /* SWGCard.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DD5890D3224ACB650027AC07 /* ModelController */ = {
+			isa = PBXGroup;
+			children = (
+				DD5890CF224ABFA30027AC07 /* SWGCardController.h */,
+				DD5890D0224ABFA30027AC07 /* SWGCardController.m */,
+			);
+			path = ModelController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +167,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD5890BA224AB9BA0027AC07 /* ViewController.m in Sources */,
 				DD5890C5224AB9BC0027AC07 /* main.m in Sources */,
 				DD5890B7224AB9BA0027AC07 /* AppDelegate.m in Sources */,
+				DD5890CD224ABB7A0027AC07 /* SWGCard.m in Sources */,
+				DD5890D1224ABFA30027AC07 /* SWGCardController.m in Sources */,
+				DD5890D6224AD0320027AC07 /* CardDeckViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

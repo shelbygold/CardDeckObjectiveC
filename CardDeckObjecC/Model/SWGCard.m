@@ -32,6 +32,12 @@
     NSString *suitFromDict = dictionary[@"suit"];
     NSString *imageFromDict = dictionary[@"image"];
     
+    if(![valueFromDict isKindOfClass:[NSString class]] || ![suitFromDict isKindOfClass:[NSString class]] || ![imageFromDict isKindOfClass:[NSString class]])
+    {
+        return nil;
+    }
+    return [self initWithValue:valueFromDict suit:suitFromDict image:imageFromDict];
 }
+
 
 @end
